@@ -9,6 +9,8 @@ ERROR:  non-foreign key column constraint names are not yet supported
 
 PostgreSQL 18.6 creates the table and keeps the constraint under that name.
 
+Reported upstream: https://github.com/dolthub/doltgresql/issues/3332
+
 ## Reproduce it
 
 You need Docker and a POSIX shell: Linux, macOS, or Windows with WSL. The first run downloads the images.
